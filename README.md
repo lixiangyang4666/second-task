@@ -4,6 +4,66 @@
 <meta charset="utf-8">
 <title>second-task</title>
 <link type="text/css" rel="stylesheet" href="css.css">
+<style>
+		body,div,ul,li,ol,h2,h3,h4,address,img,dl,dt,dd,form,p,table,tr,td{margin:0; padding:0;}
+.wp{margin:0 auto;}
+.l{float:left;}
+.r{float:right;}
+
+body{background:#282828; font-family: "微软雅黑","宋体"; font-size:14px;}
+.center{width:1284px;background:#dedede;}
+/*导航栏*/
+.navBar{height:50px; background:#333333;}
+.navBar img{margin-left:42px; margin-top:14.5px;}
+.navBar li{ list-style:none;}
+.navBar li a{text-decoration:none; color:#fff; font:12px/50px Verdana, Geneva, sans-serif; padding-right:20px;}
+.navBar li a:hover,span:hover{color:#f60;}
+.fourthNav{color:#a2a2a2;}
+
+/*第一篇文章*/
+.firstArticle{ padding:40px 20px; margin-bottom:20px;background:#fff;margin:20px;}
+.firstArticle h3{line-height:300%;}
+.firstArticle address{ color:#333; font-style:normal; font-size:12px; line-height:200%;}
+.firstArticle p{line-height:200%; text-indent:28px;}
+
+/*另一篇文章*/
+.secondArticle{padding:40px 20px; margin-bottom:20px;background:#fff;margin:20px;}
+.secondArticle h3{line-height:300%;}
+.secondArticle address{ color:#333; font-style:normal; font-size:12px; line-height:200%;}
+.secondArticle p{line-height:200%; text-indent:28px;}
+.secondArticle li{list-style:none; text-indent:24px;}
+
+/*图片区域*/
+.pictureArea{padding:40px 20px; margin-bottom:20px;background:#fff;margin:20px;}
+.pictureArea dt{font-size:20px; font-weight:600;}
+.pictureArea dd{border:1px solid #cecece; width:120px; height:124px; margin:15px 40px 0; }
+.pictureArea dd img{padding:0 10px 10px 10px; width:100px; height:82px;}
+.pictureArea dd p{ text-align:center; height:34px; line-height:34px;}
+
+/*最后一篇文章*/
+.endArticle{padding:40px 20px; margin-bottom:20px;background:#fff;margin:20px;}
+.endArticle h3{line-height:300%;}
+.endArticle address{ color:#333; font-style:normal; font-size:12px; line-height:200%;}
+.endArticle ol{margin:24px 40px; font-size:15px; font-weight:600;}
+.endArticle p{font-weight:600;}
+.endArticle table{width:100%; text-align:left; line-height:26px; }
+.endArticle th{background:#000; color:#fff;}
+.bottomCol{background:#cccccc; font-weight:600;}
+
+/*侧边栏*/
+.sideBar{padding:40px 20px; margin-bottom:20px;background:#fff;margin:20px;}
+.sideBar table{width:100%;}
+.tableRight{text-align:right; width:30%;}
+.sideBar table span{color:#cccccc;}
+.sideBar h4{line-height:40px; height:40px; border-left:4px solid #cccccc; padding-left:10px;}
+.sideBar tr{height:24px;}
+.sideBar textarea{font-size:16px; font-weight:600;}
+.sideBar table button{width:100%;height:40px; background-color:#3355d0; border:0;border-radius:10px; color:#fff; font-size:16px; font-weight:600;}
+
+/*底部*/
+.footer p{height:70px; line-height:70px; text-align:center; background:#000; color:#fff;}
+
+</style>
 </head>
 
 <body>
